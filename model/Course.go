@@ -1,10 +1,10 @@
-package Admin
+package Course
  
 import  "fmt"
 
  
  
-type Admin struct {  
+type Course struct {  
     Id int `json:"Id"`
 	Name string `json:"Name"`
 	Time string`json:"Time"`
